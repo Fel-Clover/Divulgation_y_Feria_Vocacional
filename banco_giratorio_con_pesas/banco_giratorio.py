@@ -35,7 +35,7 @@ labelz = label(pos= vector(0,0,1.2*largoeje), text = "Z", box = 0)
 
 
 # Piso del escenario
-tabla_piso = box(pos= vector(0,0,0),length = piso, width = piso, height = altura_piso, color = color.orange)
+tabla_piso = box(pos= vector(0,0,0),length = piso, width = piso, height = altura_piso, texture=textures.wood)
 
 
 # Base del banco
